@@ -157,7 +157,7 @@ nav{
    display: none;
   }
   .logo{
-    width: 10%;
+    width: 5%;
   }
   .close{
       position: absolute;
@@ -325,8 +325,8 @@ header .caption a:hover{
   position: absolute;
   top: 10px;
   left: 25px;
-  height:92%;
-  width: 87%;
+  height:auto;
+  width: 88%;
   opacity: 0;
   
 }
