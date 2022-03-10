@@ -169,25 +169,12 @@ nav{
       color: rgb(2, 2, 2);
      
   }
-  .inscr{
-      width: 100%;
-      height: 100vh;
-      z-index: 50;
-      background-color: #811d5ce8;
-      display: none;
-      border-radius: 10px;
-      
-      
-  }
-  .inscr .container{
-      width: 80%;
-      margin-top: 10%;
-  }
+  
 
   .inscription > span{
     background-color: #f9a91e;
     color: rgb(255, 255, 255);
-    padding: 10px 40px;
+    padding: 5px 10px;
     cursor: pointer;
     font-family: vip-bold, sans-serif;
   }
