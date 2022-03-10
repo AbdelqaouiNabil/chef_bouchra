@@ -233,8 +233,6 @@ nav{
 }
 /* end media screen */
 header{
-  width: 100%;
-  height: auto;
   padding-bottom: 250px;
   background-image: url(./images/slider-image1.jpg);
   background-position: inherit;
