@@ -157,7 +157,9 @@ nav{
    display: none;
   }
   .logo{
-    width: 5%;
+    width: 15%;
+    
+
   }
   .close{
       position: absolute;
