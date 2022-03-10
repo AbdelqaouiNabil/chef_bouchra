@@ -234,6 +234,8 @@ header{
   height: 100vh;
   background-image: url(./images/slider-image1.jpg);
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   
 }
 
