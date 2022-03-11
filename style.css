@@ -27,6 +27,8 @@ nav{
   justify-content: space-evenly;
   align-items: center;
   min-height: 10vh;
+  width: 100%;
+  z-index: 100;
 
 }
 
@@ -308,42 +310,34 @@ font-weight: bolder;
 .menu-section img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
   padding: 10px;
-
+  object-fit: cover;
 
 }
+
 .plat-info{
-  position: absolute;
-  top: 100%;
-  left: 10%;
-  width: 80%;
+  width: 100%;
   direction: rtl;
   cursor: pointer;
   color: #0f0f0f;
   font-family: vip-bold;
-  opacity: 0;
+  text-align: center;
 }
-.back::before{
-  content: '';
-  background-color: #f9a91eda;
-  position: absolute;
-  top: 10px;
-  left: 25px;
-  height:auto;
-  width: 88%;
-  opacity: 0;
-  
+.plat-info span{
+display: block;
+margin-bottom: 30px;
 }
-.back:hover::before{
- top: 10px;
- opacity: 1;
- height:92%;
- transition: all 0.5s ease-in-out;
+.plat-info a{
+  background-color: #f9a91e;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  text-decoration: none;
 }
-.back:hover .plat-info{
-  top: 30%;
-  opacity: 1;
-  transition: all 0.7s ease-in-out;
+.back{
+  width: 30%;
+  height: 100%;
+ 
+}
 
-}
+
+
