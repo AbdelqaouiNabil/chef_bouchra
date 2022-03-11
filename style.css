@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 @font-face {
   font-family: arabic;
   src: url(./fonts/arabic/ntaqat.ttf);
@@ -312,6 +313,7 @@ font-weight: bolder;
   height: 100%;
   padding: 10px;
   object-fit: cover;
+  margin-top: 50px;
 
 }
 
@@ -339,5 +341,139 @@ margin-bottom: 30px;
  
 }
 
+/* testmonials */
+/* Slideshow container */
 
+.slideshow-container .section-title{
+  padding-bottom:10px;
+  font-family: koufi-bold;
+}
+.section-title h1{
+  padding: 20px 0px;
+  color: #f9a91e;
+}
+.slideshow-container {
+  padding-top: 100px;
+  position: relative;
+  width: 60%;
+  margin: auto;
+ 
+}
 
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+.mySlides img{
+   border-radius: 50%;
+   display: block;
+   margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  width: auto;
+  margin-top: -30px;
+  padding: 10px;
+  color: #f9a91e;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: rgb(26, 26, 26);
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+ 
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #f9a91e;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #242424;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  padding-top: 50px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Add a blue color to the author */
+.author {
+  font-size: 15pt;
+  color: 
+  #cf8504;
+}
+
+/* footer */
+.top{
+  margin-top:100px ;
+  padding: 30px;
+  background-color: #f6f6f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+
+}
+footer p{
+  color: #cf8504;
+  font-family: koufi-bold;
+}
+footer .icons{
+  font-size: 10pt;
+  
+  
+}
+footer .icons a{
+  color: #f6f6f5;
+  padding: 5px;
+  background-color: #f09a06;
+  border-radius: 10px;
+}
+.bottom{
+  padding: 10px;
+  background-color: #f09a06;
+  color: white;
+}
+.bottom a{
+  color: #0f0f0f;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}

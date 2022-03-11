@@ -4,9 +4,9 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="./css/animate.css">
-     <link rel="stylesheet" href="css/magnific-popup.css">
      <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
      <link rel="stylesheet" href="style.css">
      <title>Chef bouchra - page d'acceuil</title>
 </head>
@@ -89,7 +89,7 @@
      </div>
      <div class="container">
           <div class="row">
-               <div class="col-lg-4 col-sm-12 ">
+               <div class="col-lg-4 col-sm-12">
                     <img src="./images/menu-image1.jpg" alt="" srcset="" >
                     <div class="plat-info" >
                          <h3>إسم الطبق</h3>
@@ -98,7 +98,7 @@
                          <a href="">  أطلب الآن</a>
                     </div>
                </div>
-               <div class="col-lg-4 col-sm-12 ">
+               <div class="col-lg-4 col-sm-12">
                     <img src="./images/menu-image2.jpg" alt="" srcset="">
                     <div class="plat-info" >
                          <h3>إسم الطبق</h3>
@@ -116,8 +116,8 @@
                          <a href="">  أطلب الآن</a>
                     </div>
                </div>
-          </div>
-          <div class="row" style="margin-top: 50px;">
+        
+          
                <div class="col-lg-4 col-sm-12 shadow">
                     <img src="./images/menu-image1.jpg" alt="" srcset="" >
                     <div class="plat-info" >
@@ -150,9 +150,63 @@
 </div>
 
 
-<div class="testimonials">
-     
-</div>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+     <div class="section-title text-center">
+          <h1>آراء زبنائي</h1>
+          <h4>إرضائكم هدفنا</h4>
+     </div>
+     <!-- Full-width slides/quotes -->
+     <div class="mySlides">
+          <img src="./images/team-image1.jpg" alt="" srcset="" width="100px"><br>
+       <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+       <p class="author">- John Keats</p>
+     </div>
+   
+     <div class="mySlides">
+          <img src="./images/team-image2.jpg" alt="" srcset="" width="100px"><br>
+       <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+       <p class="author">- Ernest Hemingway</p>
+     </div>
+   
+     <div class="mySlides">
+          <img src="./images/team-image3.jpg" alt="" srcset="" width="100px"><br>
+       <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+       <p class="author">- Thomas A. Edison</p>
+     </div>
+   
+     <!-- Next/prev buttons -->
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+   </div>
+   
+   <!-- Dots/bullets/indicators -->
+   <div class="dot-container">
+     <span class="dot" onclick="currentSlide(1)"></span>
+     <span class="dot" onclick="currentSlide(2)"></span>
+     <span class="dot" onclick="currentSlide(3)"></span>
+   </div>
+
+
+   <!-- footer start -->
+   <footer>
+       <div class="top">
+          <img src="./images/logo-01.svg" alt="" srcset="" width="80px">
+          <div class="qoute text-center">
+            <h4><i class="fa-solid fa-phone"></i> 0536124585</h4>
+               <p>"الوصفة ليس لها روح. أنت ، بصفتك الطباخ ، يجب أن تجلب الروح إلى الوصفة ".</p>
+          </div>
+          
+          <div class="icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+       </div>
+       <div class="bottom text-center">
+            <span>All RIGHT RESERVED BY : <a href="">DOTKOME COMPANY</a></span>
+       </div>
+   </footer>
      
      <script src="js/bootstrap.min.js"></script>
       <script src="./script.js"></script>
