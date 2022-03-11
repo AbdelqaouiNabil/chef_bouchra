@@ -37,7 +37,7 @@ nav{
   object-fit: cover;
 }
 .navlinks{
-  width: 35%;
+  width: 40%;
   height: 80%;
   display: flex;
   justify-content: space-between;
@@ -54,7 +54,7 @@ nav{
   text-decoration: none;
   font-size: 14pt;
   font-family: vip-bold, sans-serif;
-  color: #fafafa;
+  color: #1b1919;
   
 }
 
@@ -88,7 +88,7 @@ nav{
 }
 .inscription > .ctn{
   padding: 0 30px;
-  color: #fdfdfd;
+  color: #1f1f1f;
   font-family: vip-bold, sans-serif;
 }
 .inscription:hover{
@@ -153,9 +153,6 @@ nav{
 /* media screen start */
 
 @media screen and (max-width:768px){
-  header{
-    padding-bottom: 100px;
-  }
   .inscription > .ctn{
    display: none;
   }
@@ -176,7 +173,7 @@ nav{
 
   .inscription > span{
     background-color: #f9a91e;
-    color: rgb(255, 255, 255);
+    color: rgb(41, 40, 40);
     padding: 5px 10px;
     cursor: pointer;
     font-family: vip-bold, sans-serif;
@@ -230,38 +227,50 @@ nav{
       background-color: rgb(250, 248, 245);
   }
 
+  /* caption */
+  .caption .container .row{
+    padding-top: 10px !important;
+  }
+ 
+
+}
+
+header{
+  width: 100%;
+  background-image: url(./images/slider-image-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:inherit;
+  background-attachment:fixed;
 }
 /* end media screen */
-header{
-  padding-bottom: 250px;
-  background-image: url(./images/slider-image1.jpg);
-  background-position: inherit;
-  background-repeat: no-repeat;
-  background-attachment: local;
-  background-size: cover;
-  height: 650px;
-}
-
-header .caption{
-  font-family: vip-bold, sans-serif;
-  height: 100%;
-color: rgb(251, 251, 251);
+.caption{
+font-family: vip-bold, sans-serif;
+color: rgb(31, 31, 31);
 cursor: e-resize;
-padding: 8em 0 0 2em;
 font-weight: bolder;
-}
-header .caption h1{
-  padding: 20px 0;
-}
 
-header .caption a{
+}
+.caption h1{
+  padding: 30px 0;
+  font-family: koufi-bold;
+}
+.caption h2{
+  color: #f9a91e;
+  font-family: koufi;
+
+}
+.caption .container .row{
+  padding-top: 90px;
+}
+.caption a{
   background-color: #f9a91e;
     color: #2a2a2a;
     padding: 10px 40px;
     cursor: pointer;
     font-family: vip-bold, sans-serif;
 }
-header .caption a:hover{
+.caption a:hover{
   background-color: #383838;
   color: #faf9f6;
   text-decoration: none;
