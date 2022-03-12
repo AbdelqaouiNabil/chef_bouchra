@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout page</title>
+</head>
+<body>
+      <!-- navbar start -->
+      <nav dir="rtl">
+        <div class="logo">
+            <img src="./images/logo-01.svg" alt="" width="80">
+        </div>
+        <ul class="navlinks">
+            <li ><a href="./index.html">الرئيسية</a></li>
+            <li><a href="./index.html#satis">من أنا
+            </a></li>
+            <li><a href="./index.html#hist"> لائحة الطعام</a></li>
+            <li class="actived"><a href="">آراء زبنائي </a></li>
+            <li><a href="./contact/contact.html">
+             تواصل معي</a></li>
+        </ul>
+        <div class="inscription">
+             <span dir="ltr" class="ctn"> 0536124585 - اتصل الآن</span>
+            <span class="now">  أطلب الآن  </span>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!-- produit -->
+    <div class="checkout-container">
+        <div class="img">
+            <img src="./images/menu-image1.jpg" alt="" srcset="" class="img-responsive">
+        </div>
+        <div class="product-info" dir="rtl">
+            <h3>produit title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Nobis dolorum commodi voluptatum.</p>
+            
+                <div class="form-group">
+                    <label>Quantity: </label>
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button id="down" class="btn btn-default" onclick=" down('1')"><span class="glyphicon glyphicon-minus"></span></button>
+                        </div>
+                        <input type="text" id="myNumber" class="form-control input-number" value="1" />
+                        <div class="input-group-btn">
+                            <button id="up" class="btn btn-default" onclick="up('100')"><span class="glyphicon glyphicon-plus"></span></button>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+      <script src="./script.js"></script>
+</body>
+</html>
